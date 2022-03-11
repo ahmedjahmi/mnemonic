@@ -1,0 +1,5 @@
+node_modules/
+csv-files/
+.env
+config.ts
+bin/

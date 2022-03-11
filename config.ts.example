@@ -1,0 +1,10 @@
+const config = {
+  csv: {
+    csvDirPath: '/path/to/where/you/save/csv-files/'
+  },
+  env: {
+    envPath: '/path/to/root/of/this/project/dir/.env'
+  }
+}
+
+export default config;
