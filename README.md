@@ -123,7 +123,7 @@ This project assumes you have node and npm installed already. If not, here's som
    npm install
    ```
 3. Copy the contents of `config.ts.example` into a `config.ts` file, and the contents of `.env.example` into a `.env` file at the root of your project directory.
-   - In `config.ts`, `csvDirPath` should be set to the exact full path to the directory where you would like to store your csv files (this can be anywhere on your computer).
+   - In `config.ts`, the `csvDirPath` should be set to the exact full path to the directory where you would like to store your csv files (this can be anywhere on your computer).
    - example:
    ```js
    csvDirPath: '/path/to/where/you/save/csv-files/';

@@ -3,12 +3,12 @@
 /* eslint-disable import/order */
 /* eslint-disable import/first */
 
-import config from '../config';
+import config from './config';
 
 require('dotenv').config({ path: config.env.envPath });
 
 import { program } from 'commander';
-import { mnemonicToCsv } from './lib/utils';
+import { mnemonicToCsv } from './src/lib/utils';
 
 program
   .command('gen [wordCount] [pageCount]')
